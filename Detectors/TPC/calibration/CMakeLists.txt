@@ -31,3 +31,6 @@ o2_add_test_root_macro(macro/drawNoiseAndPedestal.C
 o2_add_test_root_macro(macro/runPedestal.C
                        PUBLIC_LINK_LIBRARIES O2::TPCCalibration
                        LABELS tpc)
+o2_add_test_root_macro(macro/drawPulser.C
+                       PUBLIC_LINK_LIBRARIES O2::TPCCalibration
+                       LABELS tpc)
